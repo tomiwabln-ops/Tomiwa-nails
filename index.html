@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tomiwa's Nails | Berlin</title>
+<style>
+:root{--ink:#241c21;--muted:#75656d;--rose:#f3dce4;--rose2:#fff6f8;--line:#ead9df;--white:#fff;--accent:#a85c78}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--rose2);line-height:1.6}
+header{position:sticky;top:0;z-index:10;background:rgba(255,246,248,.94);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+nav{max-width:1100px;margin:auto;padding:16px 22px;display:flex;align-items:center;justify-content:space-between}.logo{font-family:Georgia,serif;font-size:25px;font-weight:bold}.logo span{color:var(--accent)}
+nav a{color:var(--ink);text-decoration:none;margin-left:22px;font-size:14px;font-weight:700}
+.hero{max-width:1100px;margin:auto;padding:90px 22px 70px;display:grid;grid-template-columns:1.15fr .85fr;gap:50px;align-items:center}
+.kicker{text-transform:uppercase;letter-spacing:3px;color:var(--accent);font-size:12px;font-weight:800}.hero h1{font-family:Georgia,serif;font-size:clamp(50px,8vw,90px);line-height:.95;margin:14px 0 20px}.hero p{font-size:18px;color:var(--muted);max-width:560px}.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{border:0;border-radius:999px;padding:14px 22px;text-decoration:none;font-weight:800;cursor:pointer;display:inline-block}.primary{background:var(--ink);color:white}.secondary{background:white;color:var(--ink);border:1px solid var(--line)}
+.hero-card{min-height:390px;border-radius:28px;background:linear-gradient(145deg,#f0cfdc,#fff);display:flex;align-items:flex-end;padding:30px;box-shadow:0 20px 60px #caaab644}.hero-card div{background:#ffffffdf;border-radius:20px;padding:18px 20px;width:100%}
+section{max-width:1100px;margin:auto;padding:70px 22px}.section-title{font-family:Georgia,serif;font-size:42px;margin:0 0 10px}.sub{color:var(--muted);margin-bottom:30px}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.card{background:white;border:1px solid var(--line);border-radius:22px;padding:24px}.card h3{margin:0 0 8px}.price{font-size:25px;font-weight:800;color:var(--accent)}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.shot{aspect-ratio:1;border-radius:24px;background:linear-gradient(135deg,#f1d2dc,#e9b7c8 55%,#fff);display:flex;align-items:end;padding:16px;font-weight:800}
+.booking{background:white;border:1px solid var(--line);border-radius:28px;padding:30px;max-width:800px}.steps{display:flex;gap:8px;margin-bottom:25px}.step{font-size:12px;padding:8px 12px;border-radius:999px;background:#f6e9ed;color:var(--muted)}.step.active{background:var(--ink);color:white}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}label{font-weight:700;font-size:13px;display:block}input,select,textarea{width:100%;margin-top:7px;padding:13px;border:1px solid var(--line);border-radius:12px;background:#fff;font:inherit}textarea{min-height:100px;resize:vertical}.full{grid-column:1/-1}.summary{background:var(--rose2);padding:18px;border-radius:16px;margin:18px 0}.hidden{display:none}.notice{padding:14px;border-radius:12px;background:#f4e6eb;color:#5d4650;margin-top:15px}
+footer{padding:35px 22px;text-align:center;color:var(--muted);border-top:1px solid var(--line)}
+@media(max-width:760px){nav a{display:none}.hero{grid-template-columns:1fr;padding-top:55px}.grid{grid-template-columns:1fr 1fr}.gallery{grid-template-columns:1fr 1fr}.form-grid{grid-template-columns:1fr}.full{grid-column:auto}.hero-card{min-height:280px}}
+@media(max-width:460px){.grid,.gallery{grid-template-columns:1fr}.section-title{font-size:34px}}
+</style>
+</head>
+<body>
+<header><nav><div class="logo">Tomiwa's <span>Nails</span></div><div><a href="#services">Services</a><a href="#gallery">Gallery</a><a href="#booking">Book</a></div></nav></header>
+
+<main>
+<section class="hero">
+<div>
+<div class="kicker">Nail artist · Berlin</div>
+<h1>Pretty nails.<br>Made for you.</h1>
+<p>Welcome to Tomiwa's Nails — a cozy nail experience in Berlin for clean, beautiful sets and little details that make you feel amazing.</p>
+<div class="buttons"><a class="btn primary" href="#booking">Book an appointment</a><a class="btn secondary" href="#services">View services</a></div>
+</div>
+<div class="hero-card"><div><strong>✨ Your next nail appointment</strong><br><span style="color:#75656d">Simple booking. Beautiful results.</span></div></div>
+</section>
+
+<section id="services">
+<h2 class="section-title">Services</h2><p class="sub">Simple pricing — choose your service when booking.</p>
+<div class="grid">
+<div class="card"><h3>Classic Manicure</h3><p>Shape, tidy-up and polish.</p><div class="price">€10</div></div>
+<div class="card"><h3>Gel Polish</h3><p>Glossy, long-lasting colour.</p><div class="price">€15</div></div>
+<div class="card"><h3>Nail Art</h3><p>Creative details to personalise your set.</p><div class="price">€20</div></div>
+<div class="card"><h3>Full Set</h3><p>A complete fresh nail set.</p><div class="price">€25</div></div>
+</div>
+</section>
+
+<section id="gallery">
+<h2 class="section-title">The vibe</h2><p class="sub">Add your own nail photos here later — these placeholders keep the site ready for your portfolio.</p>
+<div class="gallery"><div class="shot">Glossy ✨</div><div class="shot">French 🤍</div><div class="shot">Pink 💗</div><div class="shot">Minimal ✦</div><div class="shot">Art 🎀</div><div class="shot">Fresh ✨</div></div>
+</section>
+
+<section id="booking">
+<h2 class="section-title">Book your appointment</h2><p class="sub">Fill in your details below. Your booking request will be prepared for confirmation.</p>
+<div class="booking">
+<div class="steps"><span class="step active">1 Details</span><span class="step">2 Review</span><span class="step">3 Done</span></div>
+<form id="bookingForm">
+<div class="form-grid">
+<div><label for="name">Your name</label><input id="name" required placeholder="Tomiwa"></div>
+<div><label for="phone">Phone / WhatsApp</label><input id="phone" required placeholder="+49 ..."></div>
+<div><label for="email">Email</label><input id="email" type="email" required placeholder="you@example.com"></div>
+<div><label for="service">Service</label><select id="service" required><option value="">Choose a service</option><option data-price="10">Classic Manicure — €10</option><option data-price="15">Gel Polish — €15</option><option data-price="20">Nail Art — €20</option><option data-price="25">Full Set — €25</option></select></div>
+<div><label for="date">Preferred date</label><input id="date" type="date" required></div>
+<div><label for="time">Preferred time</label><input id="time" type="time" required></div>
+<div class="full"><label for="notes">Notes (optional)</label><textarea id="notes" placeholder="Colour, nail-art ideas, anything I should know..."></textarea></div>
+</div>
+<div class="summary" id="summary">Choose a service, date and time to see your booking summary.</div>
+<button class="btn primary" type="submit">Confirm booking request</button>
+<div id="result" class="notice hidden"></div>
+</form>
+</div>
+</section>
+</main>
+<footer>© 2026 Tomiwa's Nails · Berlin · Made with love 💗</footer>
+
+<script>
+const form=document.getElementById('bookingForm'), service=document.getElementById('service'), date=document.getElementById('date'), time=document.getElementById('time'), summary=document.getElementById('summary'), result=document.getElementById('result');
+date.min=new Date().toISOString().split('T')[0];
+function updateSummary(){
+ const opt=service.options[service.selectedIndex];
+ if(service.value && date.value && time.value){
+   summary.innerHTML='<strong>Booking summary</strong><br>'+opt.text+' · '+new Date(date.value+'T00:00:00').toLocaleDateString('en-GB')+' at '+time.value;
+ } else summary.textContent='Choose a service, date and time to see your booking summary.';
+}
+[service,date,time].forEach(x=>x.addEventListener('change',updateSummary));
+form.addEventListener('submit',e=>{
+ e.preventDefault();
+ const data={name:document.getElementById('name').value,phone:document.getElementById('phone').value,email:document.getElementById('email').value,service:service.options[service.selectedIndex].text,date:date.value,time:time.value,notes:document.getElementById('notes').value};
+ localStorage.setItem('tomiwasNailsBooking',JSON.stringify(data));
+ const ref='TN-'+Date.now().toString().slice(-6);
+ result.classList.remove('hidden');
+ result.innerHTML='<strong>Booking request saved! 💗</strong><br>Reference: '+ref+'<br>Your details are stored in this browser. To make this a true online booking system that sends the request to you, connect the form to an email/booking service.';
+ result.scrollIntoView({behavior:'smooth',block:'center'});
+});
+</script>
+</body>
+</html>
